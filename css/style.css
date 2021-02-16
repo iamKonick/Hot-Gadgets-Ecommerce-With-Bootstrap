@@ -1,12 +1,13 @@
 .body{
     font-family: 'Poppins', sans-serif;
-    
+    margin: 0;
+    padding: 0;
     
 }
 
 
 .slide-image {
-    background-image: url("bg-1.png");
+    background-image: url("images/background-images/bg-1.png");
     background-repeat: no-repeat;
     background-position: center;
 
@@ -87,13 +88,16 @@
 }
 
 .style{
-    box-shadow: 10px 10px sienna;
     border-radius: 20px;
-    padding: 10px 20px;
+    padding:20px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 
 }
 
 .item{
     width: 50%;
+}
+
+.p-size{
+    font-size: 20px;
 }
